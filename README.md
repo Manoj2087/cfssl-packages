@@ -22,6 +22,6 @@ go get -u github.com/cloudflare/cfssl/cmd/...
 ```
 wget https://github.com/Manoj2087/cfssl-packages/releases/download/v1.3.2/cfssl_linux-amd64.zip
 unzip cfssl_linux-amd64.zip
-mv cfssl_linux-amd64/* /usr/local/bin
+mv cfssl/* /usr/local/bin
 chmod +x /usr/local/bin/*
 ```
